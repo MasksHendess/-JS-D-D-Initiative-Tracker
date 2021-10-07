@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Initiative Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+   <body>
+    <h1>Initiative Tracker</h1>
+    <div class="grid-container">
+        <div class="grid-item" id="griditem01">
+            
+        <p>Actions</p>
+            <button onclick="AddToInitiative()"> AddToInitiative</button>
+            <button onclick="AssignDamage()"> AssignDamage</button>
+            <button onclick="RemoveFromInitiative()"> RemoveFromInitiative</button>
+            <button onclick="Clear()"> Clear</button>
+        </div>
+        <div class="grid-item" id="griditem02">
+            <p>Initiative</p>
+            <table id ="table">
+
+            </table>
+            </div>
+        <div class="grid-item" id="griditem03">
+            <p>Notes</p>
+    <textarea rows="50" cols="30">
+        </textarea> 
+    </div>
+</body>
+</html>
